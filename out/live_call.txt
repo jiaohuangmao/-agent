@@ -1,0 +1,26 @@
+
+================================================================
+ ORCL  earnings 2026-09-10 (amc)   as-of 2026-09-09 01:13
+================================================================
+ OUR CALL : BULLISH LEAN     P(up)=65%
+ expected ±10.6%  implied ±11.0%  hist median ±10.0%
+ bins     : 4%  7%  15%  19%  27%  18%  9%   edges [-21.0, -11.0, -3.0, 3.0, 11.0, 21.0]
+ lean +0.22 = .5*core(+0.26) + .15*flow(-0.73) + .2*rs(+1.0)
+ options  : skew -16.9pp  P/C vol 0.66  fresh v/OI 0.82  ATM IV 161%
+ tilt     : +4.21%  (skew +0.390 pc +0.004 fresh -0.018 lean +0.022)
+ fable    : +0.0pp  No learned rule conditions met: tape.ret_20d 7.998907743902683 < 10 so r_big_runup_20d_revert (requires >=10) is not applied. options.expiry 2026-09-11 is non-null (no proxy halving required). Leaving core p_up unchanged.
+ -> /home/user/webapp/out/ORCL_2026-09-10_radar.png
+ -> /home/user/webapp/out/ORCL_2026-09-10.json
+
+================================================================
+ ADBE  earnings 2026-09-10 (amc)   as-of 2026-09-09 01:13
+================================================================
+ OUR CALL : BULLISH LEAN     P(up)=50%
+ expected ±7.5%  implied ±7.8%  hist median ±7.2%
+ bins     : 6%  11%  18%  29%  18%  11%  6%   edges [-15.0, -8.0, -3.0, 3.0, 8.0, 15.0]
+ lean +0.23 = .5*core(+0.40) + .15*flow(-0.16) + .2*rs(+0.3)
+ options  : skew -1.8pp  P/C vol 1.46  fresh v/OI 1.25  ATM IV 114%
+ tilt     : +0.10%  (skew +0.040 pc -0.076 fresh +0.025 lean +0.023)
+ fable    : +0.0pp  No learned-rule conditions met. tape.ret_20d 0.49018451507589766 < 10 so [r_big_runup_20d_revert] (requires ret_20d >= 10) is not triggered. options.expiry '2026-09-11' is not null (no halving rule applicable). Leaving core.p_up 0.5048237193641645 unchanged.
+ -> /home/user/webapp/out/ADBE_2026-09-10_radar.png
+ -> /home/user/webapp/out/ADBE_2026-09-10.json
