@@ -1,0 +1,10 @@
+rows=140  llm=on  rules before=0
+saved /home/user/webapp/memory/rulebook.json
+before: {"direction_hit_rate": 0.3929, "p_up_hit_rate": 0.5, "brier": 0.2562, "brier_baseline": 0.2467, "abs_move_coverage_1em": 0.5286, "implied_over_realized": 1.0732, "pit_ks_p": 0.1028}
+after : {"direction_hit_rate": 0.3929, "p_up_hit_rate": 0.5071, "brier": 0.2553, "brier_baseline": 0.2467, "abs_move_coverage_1em": 0.5286, "implied_over_realized": 1.0732, "pit_ks_p": 0.1028}
+ [quarantined] r_flow_z_buy             in=0.4166666666666667 n=12  oos=0.25 n=4  adj=+0.04
+ [quarantined] r_rs_phase_momentum      in=0.5128205128205128 n=39  oos=0.3333333333333333 n=21  adj=+0.03
+ [quarantined] r_big_implied_move_shrink in=0.375 n=8  oos=1.0 n=1  adj=-0.05
+ [quarantined] r_iv_skew_call_demand    in=0.5625 n=16  oos=0.375 n=8  adj=+0.03
+ [quarantined] r_near_52w_high_reversion in=0.5 n=6  oos=None n=0  adj=-0.04
+ [active     ] r_big_runup_20d_revert   in=0.5 n=16  oos=0.5833333333333334 n=12  adj=-0.03
